@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/example.css" />
+    <style></style>
+  </head>
+  <body>
+    <!-- <section>
+      <div class="explore-denali-block ">
+        <div class="container">
+        <div class="explore-content ">
+          <div class="explore-text">
+            <div class="denali-text">
+            <h2>Explore Denali</h2>
+            <p>
+              We are an asset management enterprise providing innovative
+              solutions for smart campuses, facilities and cities.
+            </p>
+            <button>Read More</button>
+          </div>
+            <div class="scientific-text">
+              <h2>Scientific approach by industry experts</h2>
+            </div>
+          </div>
+          <div class="exp-img">
+            <img src="images/explore.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section>
+      <div class="explore-denali-block">
+        <div class="grid-container">
+          <div class="item1">
+            <div class="item1-content">
+              <h3>Explore Denali</h3>
+              <p>
+                We are an asset management enterprise providing innovative
+                solutions for smart campuses, facilities and cities.
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+          <div class="item2">
+            <p>
+              Scientific approach <br />
+              by industry experts
+            </p>
+          </div>
+          <div class="item3">
+            <img src="images/explore.png" />
+            <p class="exploreText">
+              We work diligently with clients to gain an in-depth understanding
+              of <br />
+              their business and long-term goals. Our leading industry experts
+              <br />
+              offer a scientific approach to asset management. One that is
+              driven <br />
+              by ISO 55000 philosophy, to deliver integrated solutions.
+            </p>
+            <div class="case-study">
+              <a href="#"> <p>CASE STUDY +</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div id="firstTab" class="tabcontent">
+        <div class="explore-denali-block">
+          <div class="grid-container">
+            <div class="item1">
+              <div class="item1-content">
+                <h3>Explore Denali</h3>
+                <p>
+                  We are an asset management enterprise providing innovative
+                  solutions for smart campuses, facilities and cities.
+                </p>
+                <button>Read More</button>
+              </div>
+            </div>
+            <div class="item2">
+              <p>
+                Scientific approach <br />
+                by industry experts
+              </p>
+            </div>
+            <div class="item3">
+              <img src="images/explore.png" />
+              <p class="exploreText">
+                We work diligently with clients to gain an in-depth
+                understanding of <br />
+                their business and long-term goals. Our leading industry experts
+                <br />
+                offer a scientific approach to asset management. One that is
+                driven <br />
+                by ISO 55000 philosophy, to deliver integrated solutions.
+              </p>
+              <div class="case-study">
+                <a href="#"> <p>CASE STUDY +</p></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="secTab" class="tabcontent">
+        <div class="explore-denali-block">
+          <div class="grid-container">
+            <div class="item1">
+              <div class="item1-content">
+                <h3>Explore Denali</h3>
+                <p>
+                  We are an asset management enterprise providing innovative
+                  solutions for smart campuses, facilities and cities.
+                </p>
+                <button>Read More</button>
+              </div>
+            </div>
+            <div class="item2">
+              <p>
+                Scientific approach <br />
+                by industry experts
+              </p>
+            </div>
+            <div class="item3">
+              <img src="images/explore.png" />
+              <p class="exploreText">
+                Lorem ipsum hsai ad with clients to gain an in-depth
+                understanding of <br />
+                their business and long-term goals. Our leading industry experts
+                <br />
+                offer a scientific approach to asset management. One that is
+                driven <br />
+                by ISO 55000 philosophy, to deliver integrated solutions.
+              </p>
+              <div class="case-study">
+                <a href="#"> <p>CASE STUDY +</p></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="thirdTab" class="tabcontent">
+        <div class="explore-denali-block">
+          <div class="grid-container">
+            <div class="item1">
+              <div class="item1-content">
+                <h3>Explore Denali</h3>
+                <p>
+                  We are an asset management enterprise providing innovative
+                  solutions for smart campuses, facilities and cities.
+                </p>
+                <button>Read More</button>
+              </div>
+            </div>
+            <div class="item2">
+              <p>
+                Scientific approach <br />
+                by industry experts
+              </p>
+            </div>
+            <div class="item3">
+              <img src="images/explore.png" />
+              <p class="exploreText">
+                We work diligently with clients to gain an in-depth
+                understanding of <br />
+                their business and long-term goals. Our leading industry experts
+                <br />
+                offer a scientific approach to asset management. One that is
+                driven <br />
+                by ISO 55000 philosophy, to deliver integrated solutions.
+              </p>
+              <div class="case-study">
+                <a href="#"> <p>CASE STUDY +</p></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tabBtns container">
+        <p
+          class="tablink"
+          onclick="openTab('firstTab', this, '#bc363b')"
+          id="defaultOpen"
+        >
+          CONSULTING & <br />
+          ADVISORY
+        </p>
+        <p class="tablink" onclick="openTab('secTab', this, '#bc363b')">
+          ASSET TRANSFORMATION <br />
+          IN THE DIGITAL AGE
+        </p>
+        <p class="tablink" onclick="openTab('thirdTab', this, '#bc363b')">
+          READY-BUILT <br />
+          ASSET TRANSFORMATION <br />
+          FROM DENALI
+        </p>
+      </div>
+    </section>
+
+    <script>
+      function openTab(cityName, elmnt, color) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].style.backgroundColor = "";
+        }
+        document.getElementById(cityName).style.display = "block";
+
+        elmnt.style.backgroundColor = color;
+      }
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
+    </script>
+  </body>
+</html>

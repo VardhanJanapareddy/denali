@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Saira:wght@100;300;400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+
+.explore-content {
+  display: flex;
+  justify-content: space-around;
+  height: 500px;
+}
+.denali-text {
+  height: 300px;
+}
+.denali-text h2 {
+  width: 276px;
+  height: 42px;
+  color: #bc363b;
+  font-family: Saira;
+  font-size: 44px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 62.5px;
+  text-align: left;
+}
+.denali-text p {
+  width: 325px;
+  height: 69px;
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 27.6px;
+  text-align: left;
+}
+.scientific-text {
+  height: 200px;
+}
+.scientific-text h2 {
+  width: 310px;
+  height: 73px;
+  color: #bc363b;
+  font-family: Saira;
+  font-size: 36px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 38.5px;
+  text-align: left;
+}
+.exp-img img {
+  position: relative;
+  height: 500px;
+}
+.exp-img:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 468px;
+  /* width: 40px; */
+  /* height: 40px; */
+  /* border-width: 0px 0px 3px 50px; */
+  border-width: 0px 0px 44px 50px;
+  border-style: solid;
+  z-index: 1;
+  border-color: #bc363b rgb(255 255 255);
+}
+
+/* //// */
+.grid-container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 250px 200px;
+}
+
+.grid-container .item2 {
+  background-color: #000;
+  font-size: 30px;
+  text-align: center;
+}
+
+.item3 {
+  width: 100%;
+  grid-area: 1 / 2 / 3 / 3;
+  position: relative;
+  background-image: linear-gradient(to bottom, transparent, black);
+}
+.item3 img {
+  height: 450px;
+  position: relative;
+  z-index: -1;
+}
+
+img {
+  width: 100%;
+}
+.case-study {
+  position: absolute;
+  display: flex;
+  bottom: 0px;
+  right: 0px;
+  height: 160px;
+  width: 45px;
+  writing-mode: vertical-lr;
+  background-color: #bc363b;
+  justify-content: center;
+  align-items: center;
+}
+.case-study a {
+  text-decoration: none;
+}
+.case-study p {
+  color: #ffffff;
+  font-family: "Saira", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 5.72px;
+  line-height: 4.74px;
+  transform: rotate(180deg);
+}
+.item3:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-width: 0px 0px 40px 50px;
+  border-style: solid;
+  border-color: #bc363b rgba(255, 255, 255, 1);
+}
+.item3 .exploreText {
+  position: absolute;
+  width: 80%;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  letter-spacing: normal;
+  line-height: 25.6px;
+  text-align: left;
+}
+.item2 p {
+  color: #bc363b;
+  font-family: "Saira", sans-serif;
+  padding-top: 30px;
+  font-size: 35px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 38.5px;
+  font-style: normal;
+  letter-spacing: -0.72px;
+}
+.item1 h3 {
+  color: #bc363b;
+  font-family: "Saira", sans-serif;
+  font-size: 44px;
+  font-weight: 500;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: -0.88px;
+  line-height: normal;
+  margin: 0px;
+}
+.item1 p {
+  width: 330px;
+  /* height: 69px; */
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: 0.6px;
+  line-height: normal;
+  margin-top: 0px;
+}
+.explore-denali-block .item1-content {
+  padding: 30px 0 0px 45px;
+  text-align: left;
+}
+.item1 button {
+  color: #bc363b;
+  background-color: transparent;
+  padding: 10px 20px;
+  border: 1px solid #cecece;
+  font-family: Montserrat;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+/* tabs */
+.tablink {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 50px;
+  padding-top: 10px;
+  font-size: 12px;
+  width: 20%;
+  margin: 0px;
+}
+.tablink:active {
+  color: #fff !important;
+}
+
+.tablink:hover {
+  background-color: #bc363b;
+  color: #fff;
+}
+
+.tabcontent {
+  color: white;
+  display: none;
+  text-align: center;
+}
+
+#firstTab {
+  background-color: rgb(255, 255, 255);
+}
+#secTab {
+  background-color: rgb(255, 255, 255);
+}
+#thirdTab {
+  background-color: rgb(255, 255, 255);
+}
+
+.tabcontent .item3 img {
+  height: 450px;
+  position: relative;
+  z-index: -1;
+}
+.tabBtns {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .tabBtns button {
+  font-size: 10px;
+  width: 180px;
+  height: 50px;
+  padding: 0px;
+} */
